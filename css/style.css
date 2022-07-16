@@ -1112,7 +1112,7 @@ color: #2B487E;
 .fac-content-min{
   max-width: 388px;
   width: 100%;
-  margin-bottom: 69px;
+  margin-bottom: 135px;
   min-height: 53px;
 }
 .fac-buttons-content{
@@ -1142,7 +1142,7 @@ color: #2B487E;
   /* height: 147px; */
   background: #FDFDFD;
   /* position: absolute; */
-  margin: 38px 0 0 0;
+  margin: 95px 0 0 0;
   top: 40px;
   z-index: 0;
   padding: 72px 28px 52px 28px;
