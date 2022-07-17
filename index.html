@@ -428,7 +428,7 @@
         <a href="" class="redy-button open-call flex space-around align-center"><img src="images/icons/phone-request.svg" alt=""> Request a call back</a>
         <p class="text-redy-first">An agent will help you with the setup procedure</p>
     </section>
-    <section class="aplication flex flex-column container">
+    <section class="aplication flex flex-column container" style="display: none">
         <h2>Download and start your onboarding now</h2>
         <div class="aplication-content flex space-between">
             <img src="images/phone.png" alt="">
@@ -482,18 +482,20 @@
             FAQ
         </div>
         <div class="faq-content faq-block2 flex space-between   flex-wrap">
-            <div class="fac-content-min  relative flex flex-column">
-                <div class="fac-buttons-content w-full">
-                    <div class="fac-content-button w-full flex relative space-between align-center">
-                        <p>Does Low Coster Dispatch help with invoicing and how do I get paid?</p>
-                        <img src="images/icons/-.svg" alt="" class="--button fac-contet-vichak">
-                        <img src="images/icons/+.svg" alt="" class="+-button fac-contet-vichak">
+
+                <div class="fac-content-min  relative flex flex-column">
+                    <div class="fac-buttons-content w-full">
+                        <div class="fac-content-button w-full flex relative space-between align-center">
+                            <p>Does Low Coster Dispatch help with invoicing and how do I get paid?</p>
+                            <img src="images/icons/-.svg" alt="" class="--button fac-contet-vichak">
+                            <img src="images/icons/+.svg" alt="" class="+-button fac-contet-vichak">
+                        </div>
+                    </div>
+                    <div class="fac-content-descr">
+                        <p>Your invoicing and collection support is included in our services at NO additional cost. As we provide original Rate Cons, you will get paid directly from Shippers and/or Brokers.</p>
                     </div>
                 </div>
-                <div class="fac-content-descr">
-                    <p>Your invoicing and collection support is included in our services at NO additional cost. As we provide original Rate Cons, you will get paid directly from Shippers and/or Brokers.</p>
-                </div>
-            </div>
+
             <div class="fac-content-min  relative flex flex-column">
                 <div class="fac-buttons-content w-full">
                     <div class="fac-content-button w-full flex relative space-between align-center">
@@ -631,7 +633,7 @@
                         </span>
                         <p>Standard</p>
                     </label>
-                    <label for="checkbox-2" class="checkbox flex ">
+                    <!-- <label for="checkbox-2" class="checkbox flex ">
                         <input id="checkbox-2" name="checkbox-group" type="checkbox" >
                         <span class="checkbox__mark">
                           <svg width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -650,7 +652,7 @@
                       
                         </span>
                         <p>Premium Pro</p>
-                    </label>
+                    </label> -->
                 </div>
                 <a href="" class="contact-button">SEND</a>
             </div>
@@ -681,7 +683,7 @@
                     <li><a href="">FAQ</a></li>
                     <li><a href="">Privicy Policy</a></li>
                     <li><a href="">Download our App</a></li>
-                    <li class="flex app"><a href=""><img src="images/5.png" alt=""></a> <a href=""><img src="images/6.png" alt=""></a> </li>
+                    <!-- <li class="flex app"><a href=""><img src="images/5.png" alt=""></a> <a href=""><img src="images/6.png" alt=""></a> </li> -->
                 </ul>
                 <ul class="ul-menu footer-menu footer-contact">
                     <p>Contacts</p>
@@ -747,7 +749,7 @@ telInput.intlTelInput({
 //   preferredCountries: ['us'/*'sa', 'ae', 'qa','om','bh','kw','ma'*/],
   preventInvalidNumbers: true,
   separateDialCode: true,
-  initialCountry: "auto",
+//   initialCountry: "auto",
   geoIpLookup: function(callback) {
   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
     var countryCode = (resp && resp.country) ? resp.country : "";

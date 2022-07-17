@@ -300,4 +300,13 @@
     .checkbox-block{
         flex-wrap: wrap;
     }
+    .pricing-new-text>p{
+        line-height: 39px;
+    }
+    .pricing-con1>span, .pricing-con2>span{
+        font-size: 14px;
+    }
+    .text-readt{
+        flex-direction: column  ;
+    }
 }

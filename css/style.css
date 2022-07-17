@@ -3476,12 +3476,15 @@ button:hover {
   cursor: pointer;
   position: fixed;
   bottom: 0px;
-  right: 290px;
+  right: 0px;
   display: none;
   z-index: 1000;
 }
 .header{
 
+}
+.faq-mmm{
+  margin-bottom: 25px;
 }
 .send-messages-header>img{
   margin-right: 12px;

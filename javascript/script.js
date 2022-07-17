@@ -215,7 +215,6 @@ $(window).scroll(function (x) {
       1000
     );
   }
-
   if (bodyTop > 8335) {
     $('.gruzavik-client').animate(
       {
@@ -233,7 +232,7 @@ $(window).scroll(function (x) {
     );
   }
 
-  if (bodyTop > numbers) {
+  if (bodyTop > 1400) {
     var a = 0;
 
     $('.counter-value').each(function () {
