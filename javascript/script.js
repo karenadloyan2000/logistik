@@ -154,9 +154,23 @@ $(window).scroll(function (x) {
       left: 0,
       right: 0,
       margin: 'auto',
-      background: '#00000030',
+      // background: '#00000030',
       transition: '0.5s',
     });
+    $('.header').hover(
+      function () {
+        $(this).css({
+          background: '#00000030',
+          transition: '0.5s',
+        });
+      },
+      function () {
+        $(this).css({
+          background: 'none',
+          transition: '0.5s',
+        });
+      }
+    );
   } else {
     $('.arrow-down').hide(500);
 
