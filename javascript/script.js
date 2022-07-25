@@ -135,7 +135,7 @@ $('.contact-menu').click(function () {
 /*animation track*/
 $('.gruzavik').animate(
   {
-    right: '0px',
+    right: '-20%',
   },
   1000
 );
@@ -229,7 +229,7 @@ $(window).scroll(function (x) {
       1000
     );
   }
-  if (bodyTop > 8335) {
+  if (bodyTop > 7900) {
     $('.gruzavik-client').animate(
       {
         left: '-338px',
