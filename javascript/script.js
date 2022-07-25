@@ -133,12 +133,22 @@ $('.contact-menu').click(function () {
 });
 
 /*animation track*/
-$('.gruzavik').animate(
-  {
-    right: '-20%',
-  },
-  1000
-);
+
+if (window.matchMedia('(max-width: 1628px)').matches) {
+  $('.gruzavik').animate(
+    {
+      right: '-37%',
+    },
+    1000
+  );
+} else {
+  $('.gruzavik').animate(
+    {
+      right: '-37%',
+    },
+    1000
+  );
+}
 $('.arrow-down').hide();
 var numbers = $('.block3-main').position().top;
 $(window).scroll(function (x) {
