@@ -524,6 +524,7 @@ color: #2B487E;
   width: 204px!important;
   height: 204px;
   object-fit: cover;
+  border-radius: 50%;
 }
 .slider-item>h2{
   font-family: var(--font-family);
